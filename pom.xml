@@ -90,21 +90,6 @@
 
 	</build>
 
-	<distributionManagement>
-		<repository>
-			<id>deployment</id>
-			<name>Internal Releases</name>
-			<url>
-				http://localhost:8080/repository/maven-releases/
-			</url>
-		</repository>
-		<snapshotRepository>
-			<id>deployment</id>
-			<name>Internal Snapshot Releases</name>
-			<url>
-				http://localhost:8080/repository/maven-snapshots/
-			</url>
-		</snapshotRepository>
-	</distributionManagement>
+
 
 </project>
