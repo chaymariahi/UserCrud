@@ -55,6 +55,19 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+
+
+
 	</build>
+
+
+	<distributionManagement>
+		<repository>
+			<id>nexus-releases</id>
+			<name>releases</name>
+			<url>http://myNexus/more/stuff</url>
+		</repository>
+	</distributionManagement>
+
 
 </project>
