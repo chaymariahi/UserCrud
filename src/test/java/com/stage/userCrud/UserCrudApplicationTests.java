@@ -1,7 +1,7 @@
-package com.stage.userCrud;
+package com.stage.usercrud;
 
-import com.stage.userCrud.model.User;
-import com.stage.userCrud.service.UserService;
+import com.stage.usercrud.model.User;
+import com.stage.usercrud.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

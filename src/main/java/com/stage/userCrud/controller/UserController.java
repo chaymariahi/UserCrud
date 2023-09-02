@@ -1,7 +1,7 @@
-package com.stage.userCrud.controller;
+package com.stage.usercrud.controller;
 
-import com.stage.userCrud.model.User;
-import com.stage.userCrud.service.UserService;
+import com.stage.usercrud.model.User;
+import com.stage.usercrud.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

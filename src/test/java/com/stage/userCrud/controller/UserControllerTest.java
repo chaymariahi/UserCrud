@@ -1,7 +1,7 @@
-package com.stage.userCrud.controller;
-import com.stage.userCrud.controller.UserController;
-import com.stage.userCrud.model.User;
-import com.stage.userCrud.service.UserService;
+package com.stage.usercrud.controller;
+import com.stage.usercrud.controller.UserController;
+import com.stage.usercrud.model.User;
+import com.stage.usercrud.service.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

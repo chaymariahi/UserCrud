@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>com.stage</groupId>
-	<artifactId>userCrud</artifactId>
+	<artifactId>usercrud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>userCrud</name>
 	<description>Demo project for Spring Boot</description>

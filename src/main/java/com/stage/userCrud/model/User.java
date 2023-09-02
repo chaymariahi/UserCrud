@@ -1,4 +1,4 @@
-package com.stage.userCrud.model;
+package com.stage.usercrud.model;
 
 import jakarta.persistence.*;
 

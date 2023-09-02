@@ -1,6 +1,6 @@
-package com.stage.userCrud.repository;
+package com.stage.usercrud.repository;
 
-import com.stage.userCrud.model.User;
+import com.stage.usercrud.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

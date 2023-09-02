@@ -1,6 +1,6 @@
-package com.stage.userCrud.service;
+package com.stage.usercrud.service;
 
-import com.stage.userCrud.model.User;
+import com.stage.usercrud.model.User;
 
 import java.util.List;
 

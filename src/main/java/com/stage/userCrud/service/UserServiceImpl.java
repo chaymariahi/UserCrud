@@ -1,8 +1,8 @@
-package com.stage.userCrud.service;
+package com.stage.usercrud.service;
 
 
-import com.stage.userCrud.model.User;
-import com.stage.userCrud.repository.UserRepository;
+import com.stage.usercrud.model.User;
+import com.stage.usercrud.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
