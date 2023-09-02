@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+
 
 @Service
 public class UserServiceImpl implements UserService{
@@ -23,12 +25,11 @@ public class UserServiceImpl implements UserService{
         return user;
     }
 
-    public User findById(long id){
-        if (userRepository.findById(id).isPresent()){
-            return userRepository.findById(id).get();
-        }
-        return null;
+    public User findById(long id) {
+        Optional<User> userOptional = userRepository.findById(id);
+        return userOptional.orElse(null); // Ou gérer le cas où l'utilisateur n'est pas trouvé
     }
+
 
     @Override
     public void deleteUser(Long id) {

@@ -1,7 +1,6 @@
 package com.stage.userCrud.service;
 
 import com.stage.userCrud.model.User;
-import org.apache.catalina.LifecycleState;
 
 import java.util.List;
 
