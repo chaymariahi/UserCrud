@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+    SONARSERVER = "sonarserver"
+    SONARSCANNER = sonarscanner"
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -19,6 +24,17 @@ pipeline {
                 bat 'mvn test'
             }
         }
+
+        stage('SonarQube Analysis') {
+          environment {
+             scannerHome = tool "${SONARSCANNER}"
+          }
+                            steps {
+                                withSonarQubeEnv("${SONARSERVER}") {
+                                    bat 'mvn sonar:sonar'
+                                }
+                            }
+                        }
 
 
 
