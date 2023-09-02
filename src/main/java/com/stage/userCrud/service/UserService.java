@@ -5,7 +5,7 @@ import com.stage.userCrud.model.User;
 import java.util.List;
 
 public interface UserService {
-    List<User> FindAll();
+    List<User> findAll();
 
     User save(User user);
     User findById(long id);
